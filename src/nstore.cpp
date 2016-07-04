@@ -75,8 +75,10 @@ double
 nstore::value(size_type i)
   const
 {
-  if (depth_ == dw)
+  if (depth_ == dw) {    
     return ((wtype*)buffer_)[i].w;
+  }  
+  
   return ivalue(i);
 }
 

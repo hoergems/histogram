@@ -21,6 +21,10 @@
 #include <vector>
 #include <algorithm>
 #include <new> // for bad_alloc
+#include <iostream>
+
+using std::cout;
+using std::endl;
 
 namespace boost {
 namespace histogram {
